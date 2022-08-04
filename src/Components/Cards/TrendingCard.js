@@ -3,7 +3,7 @@ import { BsBookmark } from "react-icons/bs";
 
 const TrendingCard = ({ movie }) => {
   return (
-    <div className="w-[500px] h-56 bg-red-200 rounded-md relative">
+    <div className="w-[350px] lg:w-[500px] h-56 bg-red-200 rounded-md relative">
       <img
         src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`}
         alt=""
